@@ -1,0 +1,5 @@
+{
+  "name": "Askly Web",
+  "description": "A sophisticated, context-aware AI chatbot that persists conversation history, detects topics, and remembers user preferences using the Gemini API.",
+  "requestFramePermissions": []
+}

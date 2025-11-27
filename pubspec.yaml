@@ -1,0 +1,35 @@
+name: askly_flutter
+description: A context-aware AI chatbot developed by MD. Ashraful Al Amin.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # State Management
+  provider: ^6.1.1
+  # AI Integration
+  google_generative_ai: ^0.4.0
+  # Markdown rendering for chat messages
+  flutter_markdown: ^0.7.1
+  # Local Storage
+  shared_preferences: ^2.2.2
+  # Unique IDs
+  uuid: ^4.3.3
+  # Date Formatting
+  intl: ^0.19.0
+  # Environment variables (API Key)
+  flutter_dotenv: ^5.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - .env
